@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body>
+<div class="box"></div>
+<button class="btn">read more</button>
+<div class="para">
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. </p>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. </p>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. </p>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. </p>
+    <p class="p1">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+</div>
+<style type="text/css">
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid black 2px;
+    margin: 20px;
+    transition-duration: 2s;
+
+    
+} 
+.box:hover{
+    background-color: red;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn{
+    background-color: yellow;
+    color: white;
+}
+.btn:active{
+    background-color: darkred;
+    color: hotpink;
+}
+.para p:first-child{
+    color: bisque;
+}
+.para p:nth-child(4){
+    color: hotpink;
+}
+.p1::first-line{
+    color: green;
+}
+.p1::first-letter{
+    font-size: 50px;
+    color: hotpink;
+}
+.p1::before{
+    content: 'humna sajjad';
+
+}
+.p1::after{
+    content: 'humna sajjad';
+    color: blue;
+}
+.p1::selection{
+    background-color: black;
+    color: hotpink;
+}
+.ul li::marker{
+    color: darkred;
+    font-size: 20px;
+}
+
+
+</style>
+<ul class="ul">
+    <li>list</li>
+    <li>list</li>
+    <li>list</li>
+    <li>list</li>
+    <li>list</li>
+
+
+
+
+
+</ul>
+
+
+
+
+</body>
+</html>
